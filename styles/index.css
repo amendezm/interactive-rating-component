@@ -142,3 +142,7 @@ button {
   margin-right: 25px;
   color: hsl(217, 12%, 63%);
 }
+
+.hidden {
+  display: none;
+}
