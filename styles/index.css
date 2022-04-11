@@ -14,7 +14,8 @@
   justify-content: center;
 }
 
-.box {
+.box,
+.thank-you-box {
   background-color: hsl(216, 12%, 8%);
   width: 400px;
   height: 420px;
@@ -23,6 +24,10 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1.5rem;
+}
+
+.thank-you-box {
+  align-items: center;
 }
 
 .figure {
@@ -99,4 +104,41 @@ button {
   cursor: pointer;
   background-color: #fff;
   color: hsl(25, 97%, 53%);
+}
+
+.thank-you-box > .image {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.thank-you-box > .text_rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 18%);
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-box > .content_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thank-you-box > .content_text > h1 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.thank-you-box > .content_text > p {
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: hsl(217, 12%, 63%);
 }
