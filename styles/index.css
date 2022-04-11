@@ -23,11 +23,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .box,
+  .thank-you-box {
+    width: 85vw;
+    height: 400px;
+  }
 }
 
 .thank-you-box {
   align-items: center;
+  padding: 3rem 1.5rem;
 }
 
 .figure {
@@ -59,6 +68,12 @@ button {
   line-height: 1.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 0.95rem;
+  }
+}
+
 .rating {
   display: flex;
   justify-content: space-between;
@@ -72,6 +87,13 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .item:hover {
@@ -100,6 +122,13 @@ button {
   font-weight: 600;
 }
 
+@media screen and (max-width: 600px) {
+  .button {
+    font-size: 13px;
+    height: 2.5rem;
+  }
+}
+
 .button:hover {
   cursor: pointer;
   background-color: #fff;
@@ -109,8 +138,8 @@ button {
 .thank-you-box > .image {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .thank-you-box > .text_rating {
@@ -131,16 +160,18 @@ button {
 }
 
 .thank-you-box > .content_text > h1 {
-  margin-top: 35px;
   margin-bottom: 10px;
   color: hsl(0, 0%, 100%);
+  margin: 0.5rem;
 }
 
 .thank-you-box > .content_text > p {
   text-align: center;
-  margin-left: 25px;
-  margin-right: 25px;
   color: hsl(217, 12%, 63%);
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-size: 0.85rem;
+  margin: 0 0.15rem;
 }
 
 .hidden {
