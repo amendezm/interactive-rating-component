@@ -102,10 +102,6 @@ button {
   color: white;
 }
 
-.item:active {
-  background-color: hsl(25, 97%, 53%);
-}
-
 .item.active {
   background-color: hsl(25, 97%, 53%);
   color: #fff;
